@@ -1,0 +1,10 @@
+devfixturespath="workbench/fixtures/dev/"
+prodfixturespath="workbench/fixtures/production/"
+alias sign="jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore"
+
+alias plans_dump="pm dumpdata plans.plan | tee $devfixturespath$'plans.json' >| $prodfixturespath$'plans.json'"
+alias quota_dump="pm dumpdata plans.quota | tee $devfixturespath$'quota.json' >| $prodfixturespath$'quota.json'"
+alias planquota_dump="pm dumpdata plans.planquota | tee $devfixturespath$'planquota.json' >| $prodfixturespath$'planquota.json'"
+alias pricing_dump="pm dumpdata plans.pricing | tee $devfixturespath$'pricing.json' >| $prodfixturespath$'pricing.json'"
+alias planpricing_dump="pm dumpdata plans.planpricing | tee $devfixturespath$'planpricing.json' >| $prodfixturespath$'planpricing.json'"
+alias allplandump="plans_dump;quota_dump;planquota_dump;pricing_dump;planpricing_dump"
