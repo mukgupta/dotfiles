@@ -1,7 +1,7 @@
 devfixturespath="workbench/fixtures/dev/"
 prodfixturespath="workbench/fixtures/production/"
 alias sign="jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore"
-
+alias ngbp="cd /home/mukesh/Projects/Repos/workbench/workbench/workbench/ng-boilerplate"
 alias plans_dump="pm dumpdata plans.plan | tee $devfixturespath$'plans.json' >| $prodfixturespath$'plans.json'"
 alias quota_dump="pm dumpdata plans.quota | tee $devfixturespath$'quota.json' >| $prodfixturespath$'quota.json'"
 alias planquota_dump="pm dumpdata plans.planquota | tee $devfixturespath$'planquota.json' >| $prodfixturespath$'planquota.json'"

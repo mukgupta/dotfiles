@@ -21,3 +21,6 @@ alias gd="git diff --color"
 alias gb="git branch"
 alias gl='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias gu="git gui"
+alias gco="git checkout"
+alias gcm="gco master"
+alias gcd="gco development"
