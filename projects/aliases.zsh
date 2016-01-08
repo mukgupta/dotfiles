@@ -2,7 +2,7 @@ alias desk='cd /home/mukesh/Desktop'
 alias desk='cd /home/mukesh/Desktop'
 alias segment='cd /home/mukesh/Projects/Repos/auto-segment-tagging;virt-seg'
 alias tensor='cd /home/mukesh/Projects/Repos/tensorflow/;virt-tensor'
-alias work='cd /home/mukesh/Projects/Repos/workbench/workbench;virt-work'
+alias work='cd /home/mukesh/Projects/Repos/workbench/workbench;virt-work;node-work'
 alias nodes='cd /home/mukesh/Projects/Repos/workbench/workbench/workbench/ng-boilerplate/node_server'
 alias pilot='cd /home/mukesh/Projects/Repos/pilot/pilot;virt-pilot'
 alias mob='cd /home/mukesh/Projects/Repos/mobengage/mobengage;virt-mob'
@@ -17,7 +17,8 @@ alias up_swagger='cd /home/mukesh/Projects/Repos/workbench/;git subtree push --p
 alias page='cd /home/mukesh/Projects/pagecreator/ng-boilerplate'
 alias fixtures='python manage.py loaddata workbench/fixtures/*.json'
 alias home='cd /home/mukesh'
-
+alias repos='cd /home/mukesh/Projects/Repos'
+alias caffe='cd /home/mukesh/Projects/Repos/caffe/'
 
 alias virt-tensor='source ~/.virtualenvs/tensorflow/bin/activate'
 alias virt-seg='source ~/.virtualenvs/mining/bin/activate'
@@ -28,7 +29,7 @@ alias virt-mob='source ~/.virtualenvs/mobengage/bin/activate'
 alias virt-cfi='source ~/.virtualenvs/cfi/bin/activate'
 alias virt-twoscoops='source ~/.virtualenvs/django-twoscoops-project/bin/activate'
 
-
+alias node-work='. ~/.nodeenvs/v0.10.33/bin/activate'
 alias scn='cd /home/mukesh/Desktop/Dev/scanova/'
 alias aws='ssh awshost2'
 alias galsky='ssh galsky'
