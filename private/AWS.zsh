@@ -1,0 +1,1 @@
+/home/mukesh/.private/AWS.zsh
