@@ -28,7 +28,7 @@ alias virt-pilot='source ~/.virtualenvs/pilot/bin/activate'
 alias virt-mob='source ~/.virtualenvs/mobengage/bin/activate'
 alias virt-cfi='source ~/.virtualenvs/cfi/bin/activate'
 alias virt-twoscoops='source ~/.virtualenvs/django-twoscoops-project/bin/activate'
-
+alias virt-bulk='source ~/.virtualenvs/bulkgen/bin/activate'
 alias node-work='. ~/.nodeenvs/v0.10.33/bin/activate'
 alias scn='cd /home/mukesh/Desktop/Dev/scanova/'
 alias aws='ssh awshost2'
